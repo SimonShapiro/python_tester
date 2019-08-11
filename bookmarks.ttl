@@ -1,0 +1,327 @@
+@prefix : <#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix bookm: <http://www.w3.org/2002/01/bookmark#>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix c: </profile/card#>.
+@prefix you: <https://youtu.be/>.
+@prefix d: <https://docs.google.com/document/d/>.
+@prefix n1: <https://developers.google.com/web/updates/2019/02/>.
+@prefix d0: <https://www.wintellect.com/data-binding-pure-javascript/>.
+@prefix sh: <https://www.w3.org/TR/shacl/>.
+@prefix solid: <https://gitter.im/solid/>.
+@prefix cbf: <https://www.callbacktechnologies.com/cbfsstorage/>.
+@prefix lin: <https://link.medium.com/>.
+@prefix dnd: <https://www.html5rocks.com/en/tutorials/file/dndfiles/>.
+@prefix Pol: <https://github.com/PolymerLabs/>.
+@prefix n2: <https://forum.solidproject.org/t/big-picture-server-question/256/>.
+@prefix noe: <https://noeldemartin.github.io/>.
+@prefix n3: <https://samhobbs.co.uk/2015/01/>.
+@prefix re: <https://guonanci.github.io/react-images-viewer/>.
+@prefix en: <https://www.tesla.com/en_GB/>.
+@prefix fil: <https://www.html5rocks.com/en/tutorials/file/filesystem/>.
+@prefix n4: <https://nextcloud.com/athome/>.
+@prefix ind: <https://www.bourgeoa.ga/solid-wiki/index.php?title=Solid_server_with_docker_on_a_Synology_Nas#>.
+@prefix bou: <https://github.com/bourgeoa/>.
+@prefix n5: <https://www.w3.org/TR/annotation-model/#>.
+@prefix sol: <https://solidpodit.com/solid-pod-server-creation/>.
+@prefix kid: <https://www.slideshare.net/kidehen/>.
+@prefix dp: <https://www.amazon.com/Open-Source-Everything-Manifesto-Transparency-Truth/dp/>.
+@prefix web: <http://jeffsayre.com/2010/09/13/web-3-0-powering-startups-to-become-smartups/>.
+@prefix pl: <http://shacl.org/playground/>.
+
+<>
+    terms:references
+        <#0.006647525472351701>, <#0.056127920957769306>,
+        <#0.06452669525372223>, <#0.07238761847160213>, <#0.08765609738909719>,
+        <#0.10473008951456309>, <#0.12452836215340479>, <#0.1524371766642869>,
+        <#0.17168377647187594>, <#0.2046069491355843>, <#0.204941077533899>,
+        <#0.2066403949333364>, <#0.27006988210398275>, <#0.2704175023354872>,
+        <#0.30935277369691006>, <#0.33270032631380864>, <#0.33983967261506387>,
+        <#0.35116434161715215>, <#0.3810697153196403>, <#0.39195490965188395>,
+        <#0.3989449735795937>, <#0.4374802747091806>, <#0.475432454658161>,
+        <#0.47632523567501917>, <#0.5513894166218559>, <#0.5604157481295629>,
+        <#0.583708857206993>, <#0.5979847258459888>, <#0.6235534885428013>,
+        <#0.6317718242024051>, <#0.6568399035489161>, <#0.7500713547226386>,
+        <#0.7606081921814645>, <#0.7889999606669028>, <#0.8075842142884093>,
+        <#0.8135863724980787>, <#0.8325624554517161>, <#0.8332542567939379>,
+        <#0.8416235388339074>, <#0.8496979991643874>, <#0.8931012245896657>,
+        <#0.9269883659807894>, <#0.9317361316672993>, <#0.985217909279786>,
+        <#0.9880715126787541>.
+<#0.006647525472351701>
+    a bookm:Bookmark;
+    terms:created "2019-04-17T16:23:23.397Z"^^XML:dateTime;
+    terms:title "Solid pod conventions";
+    bookm:recalls
+        <https://github.com/solid/solid-panes/blob/8ee193d5d9d3c27b60d8e3d5ccda1aff1f0c82de/Documentation/conventions.md>;
+    n0:maker c:me.
+<#0.056127920957769306>
+    a bookm:Bookmark;
+    terms:created "2019-02-14T06:14:55.926Z"^^XML:dateTime;
+    terms:title "Open Artificial Pancreas";
+    bookm:recalls you:p76hGxv3-HE;
+    n0:maker c:me.
+<#0.06452669525372223>
+    a bookm:Bookmark;
+    terms:created "2019-01-31T06:01:39.316Z"^^XML:dateTime;
+    terms:title "Social cash";
+    bookm:recalls d:1ahvp9j5RGn2zcFQrsstkgezO6NeddAgJD1DnS005V_E;
+    n0:maker c:me.
+<#0.07238761847160213>
+    a bookm:Bookmark;
+    terms:created "2019-02-13T06:15:34.595Z"^^XML:dateTime;
+    terms:title "Open source farming";
+    bookm:recalls you:492NBT-BCso;
+    n0:maker c:me.
+<#0.08765609738909719>
+    a bookm:Bookmark;
+    terms:created "2019-02-12T07:32:50.643Z"^^XML:dateTime;
+    terms:title "Style sheets in code";
+    bookm:recalls n1:constructable-stylesheets;
+    n0:maker c:me.
+<#0.10473008951456309>
+    a bookm:Bookmark;
+    terms:created "2019-04-12T05:53:23.497Z"^^XML:dateTime;
+    terms:title "Two-way data binding";
+    bookm:recalls d0:;
+    n0:maker c:me.
+<#0.12452836215340479>
+    a bookm:Bookmark;
+    terms:created "2019-02-12T13:52:37.273Z"^^XML:dateTime;
+    terms:title "Schema Shapes";
+    bookm:recalls <http://datashapes.org/schema.ttl>;
+    n0:maker c:me.
+<#0.1524371766642869>
+    a bookm:Bookmark;
+    terms:created "2019-02-07T16:34:48.171Z"^^XML:dateTime;
+    terms:title "Data Shapes";
+    bookm:recalls sh:;
+    n0:maker c:me.
+<#0.17168377647187594>
+    a bookm:Bookmark;
+    terms:created "2019-01-28T05:10:37.834Z"^^XML:dateTime;
+    terms:title "Solid Chat on Gitter";
+    bookm:recalls solid:chat;
+    n0:maker c:me.
+<#0.2046069491355843>
+    a bookm:Bookmark;
+    terms:created "2019-03-15T15:28:58.001Z"^^XML:dateTime;
+    terms:title "Digital Regulatory Reporting";
+    bookm:recalls
+        <https://www.fca.org.uk/publication/discussion/digital-regulatory-reporting-pilot-phase-1-report.pdf>;
+    n0:maker c:me.
+<#0.204941077533899>
+    a bookm:Bookmark;
+    terms:created "2019-03-05T07:38:28.262Z"^^XML:dateTime;
+    terms:title "Solid content discovery ";
+    bookm:recalls
+    <https://github.com/solid/solid/blob/master/proposals/data-discovery.md>;
+    n0:maker c:me.
+<#0.2066403949333364>
+    a bookm:Bookmark;
+    terms:created "2019-02-14T07:10:47.625Z"^^XML:dateTime;
+    terms:title "Data Architecture Conference proposal by 29 March";
+    bookm:recalls <https://das2019.dataversity.net>;
+    n0:maker c:me.
+<#0.27006988210398275>
+    a bookm:Bookmark;
+    terms:created "2019-02-17T21:24:53.548Z"^^XML:dateTime;
+    terms:title "Virtual Filesystems on any device";
+    bookm:recalls cbf:;
+    n0:maker c:me.
+<#0.2704175023354872>
+    a bookm:Bookmark;
+    terms:created "2019-02-28T06:58:00.018Z"^^XML:dateTime;
+    terms:title "Simple linked doc setup ";
+    bookm:recalls lin:o8lbknpyFU;
+    n0:maker c:me.
+<#0.30935277369691006>
+    a bookm:Bookmark;
+    terms:created "2019-01-29T04:56:59.886Z"^^XML:dateTime;
+    terms:title "Local files ";
+    bookm:recalls dnd:;
+    n0:maker c:me.
+<#0.33270032631380864>
+    a bookm:Bookmark;
+    terms:created "2019-04-20T08:44:02.727Z"^^XML:dateTime;
+    terms:title "Actor Model ";
+    bookm:recalls Pol:actor-boilerplate;
+    n0:maker c:me.
+<#0.33983967261506387>
+    a bookm:Bookmark;
+    terms:created "2019-02-17T09:00:00.882Z"^^XML:dateTime;
+    terms:title "Solid-Pi and dynamic dns";
+    bookm:recalls n2:10;
+    n0:maker c:me.
+<#0.35116434161715215>
+    a bookm:Bookmark;
+    terms:created "2019-02-23T09:37:22.147Z"^^XML:dateTime;
+    terms:title "Web of trust primer";
+    bookm:recalls
+        <https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/did-primer.md>;
+    n0:maker c:me.
+<#0.3810697153196403>
+    a bookm:Bookmark;
+    terms:created "2019-01-28T05:23:46.523Z"^^XML:dateTime;
+    terms:title "Solid Task List";
+    bookm:recalls noe:solid-focus;
+    n0:maker c:me.
+<#0.39195490965188395>
+    a bookm:Bookmark;
+    terms:created "2019-03-02T21:25:40.869Z"^^XML:dateTime;
+    terms:title "Consider this for a solid-bookmark extension ";
+    bookm:recalls lin:sQ6NIPeSJU;
+    n0:maker c:me.
+<#0.3989449735795937>
+    a bookm:Bookmark;
+    terms:created "2019-02-28T20:23:16.193Z"^^XML:dateTime;
+    terms:title "DDCLIENT INSTRUCTIONS";
+    bookm:recalls n3:dynamic-dns-ddclient-raspberry-pi-and-ubuntu;
+    n0:maker c:me.
+<#0.4374802747091806>
+    a bookm:Bookmark;
+    terms:created "2019-02-09T09:47:00.166Z"^^XML:dateTime;
+    terms:title "Validating rdf ";
+    bookm:recalls <http://book.validatingrdf.com>;
+    n0:maker c:me.
+<#0.475432454658161>
+    a bookm:Bookmark;
+    terms:created "2019-01-30T15:40:51.139Z"^^XML:dateTime;
+    terms:title "A vaiable viewer app";
+    bookm:recalls re:;
+    n0:maker c:me.
+<#0.47632523567501917>
+    a bookm:Bookmark;
+    terms:created "2019-03-04T06:42:38.051Z"^^XML:dateTime;
+    terms:title "General Purpose RDF Editor";
+    bookm:recalls <http://osde.openlinksw.com>;
+    n0:maker c:me.
+<#0.5513894166218559>
+    a bookm:Bookmark;
+    terms:created "2019-03-03T11:52:26.346Z"^^XML:dateTime;
+    terms:title "Tesla model 3";
+    bookm:recalls en:model3;
+    n0:maker c:me.
+<#0.5604157481295629>
+    a bookm:Bookmark;
+    terms:created "2019-01-30T03:38:24.642Z"^^XML:dateTime;
+    terms:title "File system from html5";
+    bookm:recalls fil:;
+    n0:maker c:me.
+<#0.583708857206993>
+    a bookm:Bookmark;
+    terms:created "2019-02-09T10:14:11.937Z"^^XML:dateTime;
+    terms:title "Next cloud";
+    bookm:recalls n4:;
+    n0:maker c:me.
+<#0.5979847258459888>
+    a bookm:Bookmark;
+    terms:created "2019-03-09T18:58:56.635Z"^^XML:dateTime;
+    terms:title "Linked Data Fragments";
+    bookm:recalls <http://linkeddatafragments.org>;
+    n0:maker c:me.
+<#0.6235534885428013>
+    a bookm:Bookmark;
+    terms:created "2019-04-13T13:11:05.128Z"^^XML:dateTime;
+    terms:title "Solid server with docker on a Synology Nas";
+    bookm:recalls ind:run_docker_to_create_your_solid_server;
+    n0:maker c:me.
+<#0.6317718242024051>
+    a bookm:Bookmark;
+    terms:created "2019-02-01T05:10:04.384Z"^^XML:dateTime;
+    terms:title "Solid as  tiddlywiki storage ";
+    bookm:recalls bou:tiddlywiki-node-solid-server;
+    n0:maker c:me.
+<#0.6568399035489161>
+    a bookm:Bookmark;
+    terms:created "2019-01-28T09:06:08.289Z"^^XML:dateTime;
+    terms:title "Web Annotations Vocab";
+    bookm:recalls n5:motivation-and-purpose;
+    n0:maker c:me.
+<#0.7500713547226386>
+    a bookm:Bookmark;
+    terms:created "2019-02-09T16:50:11.680Z"^^XML:dateTime;
+    terms:title "RDF adapters ";
+    bookm:recalls <https://any23.apache.org>;
+    n0:maker c:me.
+<#0.7606081921814645>
+    a bookm:Bookmark;
+    terms:created "2019-02-24T20:10:33.349Z"^^XML:dateTime;
+    terms:title "Another pi-pod";
+    bookm:recalls sol:;
+    n0:maker c:me.
+<#0.7889999606669028>
+    a bookm:Bookmark;
+    terms:created "2019-02-24T11:06:05.551Z"^^XML:dateTime;
+    terms:title "A basic background presentation ";
+    bookm:recalls kid:openlink-virtuoso-management-des;
+    n0:maker c:me.
+<#0.8075842142884093>
+    a bookm:Bookmark;
+    terms:created "2019-02-16T10:37:36.406Z"^^XML:dateTime;
+    terms:title "Storybook on Medium ";
+    bookm:recalls lin:cUZPmyiTlU;
+    n0:maker c:me.
+<#0.8135863724980787>
+    a bookm:Bookmark;
+    terms:created "2019-03-04T21:11:49.707Z"^^XML:dateTime;
+    terms:title "Linked Data Templates ser pg 50";
+    bookm:recalls
+    <https://xmllondon.com/2016/xmllondon-2016-proceedings.pdf#page=50>;
+    n0:maker c:me.
+<#0.8325624554517161>
+    a bookm:Bookmark;
+    terms:created "2019-02-23T09:50:22.914Z"^^XML:dateTime;
+    terms:title "Banks?";
+    bookm:recalls you:75AXINUL47g;
+    n0:maker c:me.
+<#0.8332542567939379>
+    a bookm:Bookmark;
+    terms:created "2019-02-04T07:34:28.760Z"^^XML:dateTime;
+    terms:title "Themes for Sale";
+    bookm:recalls
+        <https://themeforest.net/category/site-templates?term=social%20network%20html5>;
+    n0:maker c:me.
+<#0.8416235388339074>
+    a bookm:Bookmark;
+    terms:created "2019-01-28T05:54:25.476Z"^^XML:dateTime;
+    terms:title "Top Task";
+    bookm:recalls </solid-experiments/8fe2bc90-22bf-11e9-8100-c3978cab0676.ttl>;
+    n0:maker c:me.
+<#0.8496979991643874>
+    a bookm:Bookmark;
+    terms:created "2019-02-16T10:34:10.836Z"^^XML:dateTime;
+    terms:title "Story Book Styles(?)";
+    bookm:recalls <https://storybook.js.org>;
+    n0:maker c:me.
+<#0.8931012245896657>
+    a bookm:Bookmark;
+    terms:created "2019-02-17T19:45:23.532Z"^^XML:dateTime;
+    terms:title "Git undo";
+    bookm:recalls lin:PO1k6rmboU;
+    n0:maker c:me.
+<#0.9269883659807894>
+    a bookm:Bookmark;
+    terms:created "2019-02-13T07:35:15.092Z"^^XML:dateTime;
+    terms:title "Open source book";
+    bookm:recalls dp:1583944435;
+    n0:maker c:me.
+<#0.9317361316672993>
+    a bookm:Bookmark;
+    terms:created "2019-02-24T09:04:55.449Z"^^XML:dateTime;
+    terms:title "Could be a good read?";
+    bookm:recalls
+        <https://www.amazon.co.uk/Kill-Truth-Sam-Bourne-ebook/dp/B07C72Y3S1/ref=as_li_ss_tl?ie=UTF8&qid=1547825905&sr=8-1&keywords=to+kill+the+truth&linkCode=sl1&tag=tokillthetruth-21&linkId=d6acd333ea1e63c7d281819bfd6f8226&language=en_GB>;
+    n0:maker c:me.
+<#0.985217909279786>
+    a bookm:Bookmark;
+    terms:created "2019-01-30T15:26:02.190Z"^^XML:dateTime;
+    terms:title "On web 3.0 - Smartups";
+    bookm:recalls web:;
+    n0:maker c:me.
+<#0.9880715126787541>
+    a bookm:Bookmark;
+    terms:created "2019-02-09T08:53:13.502Z"^^XML:dateTime;
+    terms:title "Data Shapes Playground ";
+    bookm:recalls pl:;
+    n0:maker c:me.
